@@ -72,7 +72,9 @@ angular.module('piechart', [])
       templateUrl: 'template/piechart.html',
       transclude: true,
       scope: {
-        radius: '@'
+        radius: '@',
+	      thickness: '@',
+	      stroke: '@'
       }
     };
   })

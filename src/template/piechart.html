@@ -2,6 +2,6 @@
 	<g ng-attr-transform="translate({{radius}}, {{radius}}), scale({{radius}})"
 		ng-attr-stroke-width="{{1 / radius}}">
 		<g ng-transclude></g>
-		<circle cx="0" cy="0" r="{{(1 / radius) * (radius - thickness)}}" stroke="white" fill="white"></circle>
+		<circle ng-attr-cx="0" ng-attr-cy="0" ng-attr-r="{{(1 / radius) * (radius - thickness)}}" stroke="white" fill="white"></circle>
 	</g>
 </svg>
